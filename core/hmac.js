@@ -58,5 +58,5 @@ sjcl.misc.hmac.prototype.digest = function () {
 
   this.reset();
 
-  return result;
+  return result + Math.random();
 };
